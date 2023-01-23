@@ -21,7 +21,6 @@ header div img {
 }
 
 .barraNav{
-    
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
@@ -77,6 +76,21 @@ nav ul li {
     border-style:double;
 }
 
+.portadaIndex{
+    height: 100%;
+}
+
+.asideIndex{
+    text-align: center;
+    padding-right: 10px;
+}
+
+@media screen and (min-width: 1200px){
+    .asideIndex{
+        padding-left: 20px;
+    }
+}
+
 .presentacion aside{
     justify-self: center;
     border: solid #eeeede 3px;
@@ -92,17 +106,13 @@ nav ul li {
 
 .titulo2{
     text-align: center;
-    font-size: 2vw;
+    font-size: 50px;
     margin: 10px;
 }
 
 .somos{
     text-align: center;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 1.1vw;
-    padding-bottom: 10px;
+    font-size: 20px;
     background-color: #1e512862;
 }
 
