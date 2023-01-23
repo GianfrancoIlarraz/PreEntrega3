@@ -1,0 +1,336 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-ser;
+    font-family: 'Roboto', sans-serif;
+    color: #eeeede;
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+
+
+header div {
+    height: 194px;
+}
+
+header div img {
+    width: 100%;
+}
+
+.barraNav{
+    
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #191a19;
+    font-weight: 700;
+    margin-bottom: 3%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.5vw;
+    
+}
+
+nav ul li a:hover{
+    background-color: #143a39;
+    border-radius: 20%;
+    text-decoration: underline;
+}
+
+nav ul li {
+    margin: 2px;
+    padding: 4px;
+    border-radius: 40%;
+}
+
+
+.fondo1{
+    background-image: url(../assets/backgrodund2.jpg);
+}
+
+.fondo2{
+    background-image: url(../assets/Background.png);
+}
+
+
+/*MAIN INDEX*/
+
+.presentacion{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.presentacion div {
+    width: 20%;
+}
+
+.presentacion img{
+    justify-self: center;
+    width: 50%;
+    border: 10px #eeeede solid;
+    border-style:double;
+}
+
+.presentacion aside{
+    justify-self: center;
+    border: solid #eeeede 3px;
+    border-style:double;
+    padding: 12px;
+    margin-right: 55px;
+    width: 20%;
+    text-align: justify;
+    background-image: url(../assets/backgroundsmall.jpg);
+    background-position: 40%;
+}
+
+
+.titulo2{
+    text-align: center;
+    font-size: 2vw;
+    margin: 10px;
+}
+
+.somos{
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.1vw;
+    padding-bottom: 10px;
+    background-color: #1e512862;
+}
+
+/*MAIN JUGADORES*/
+
+#listaPlayers{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#listaPlayers img {
+    width: 15%;
+    background-image: url(../assets/backgroundsmall.jpg);
+    background-color: #0D2726;
+    border: solid #ADD84E 5px;
+}
+
+#nombresPlayers{
+    display: flex;
+    justify-content: space-between;
+}
+
+#nombresPlayers h2{
+    width: 18%;
+    display: flex;
+    justify-content: center;
+    text-decoration:underline;
+}
+
+#descripcionPlayers{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+
+#descripcionPlayers p{
+    background-color: #0D2726;
+    padding: 1%;
+    width: 18%;
+    border: solid #ADD84E 3px;
+}
+
+/*BODY CONTACTANOS*/
+
+#contact{
+    display: flex;
+    justify-content: space-around;
+}
+
+#contactText{
+width: 30%;
+}
+
+#contactImg{
+    width: 50%;
+}
+
+#contactImg img{
+    width: 100%;
+    border: double white 5px;
+}
+
+#titContacta{
+    padding: 20px;
+    margin-left: 10%;
+}
+
+.contacta {
+    font-size: 20px;
+    padding: 20px;
+    text-align: justify;
+}
+
+.formulario{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    
+}
+
+.formulario div textarea {
+    padding: 5px;
+    color: #0D2726;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    background-color: rgb(243, 243, 243);
+}
+
+.formulario div input{
+    font-size: 15px;
+    width: 100%;
+    padding: 5px;
+    color: #0D2726;
+}
+
+/*BODY SPONSORS*/
+
+#titSponsor{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 40px;
+}
+
+#sponsorDesc{
+    display: flex;
+    justify-content: center;
+}
+
+#sponsorDesc p{
+    width: 60%;
+    text-align: center;
+}
+
+.sponsorCenter{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sponsorCenter i{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+
+.sponsorCenter h2{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1%;
+}
+
+.sponsorCenter p{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #0d2726b2;
+}
+
+/*BODY SOBRE NOSOTROS*/
+
+.nosotrosCenter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nosotrosCenter h2{
+    font-size: 40px;
+    background-color: #0D2726;
+    width: 100%;
+    text-align: center;
+}
+
+.nosotrosCenter p{
+    margin: 20px;
+    width: 70%;
+    text-align: center;
+    background-color: #0d272691;
+    font-size: 18px;
+}
+
+#nosotrosTitle{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    background-color: #0D2726;
+}
+
+.nosotrosStaff{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nosotrosStaff img{
+    border: double 4px white;
+    width: 20%;
+    background-image: url(../assets/backgroundsmall.jpg);
+}
+
+.nosotrosStaff h2{
+    margin: 5px;
+    font-size: 30px;
+}
+
+.nosotrosStaff p{
+    width: 30%;
+    text-align: center;
+    background-color: #0d2726a1;
+}
+
+/*FOOTER*/
+
+footer{
+    margin-top: 3%;
+    background-color: #191A19;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div{
+    display: flex;
+    justify-content: flex-end;
+    width: 33%;
+}
+
+footer div a{
+    margin: 25px;
+    color: white;
+}
+
+footer p{
+    width: 34%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    color: white;
+}
+
