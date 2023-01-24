@@ -129,6 +129,33 @@ header{
     border: solid #ADD84E 3px;
 }
 
+.carruselImg{
+    width: 25%;
+    height: 40vw;
+    transform: translateX(150%);
+}
+
+.fondoCarrusel{
+    transform: translate(40%,-90%);
+}
+.fondoCarrusel p{
+    background-color:#0d2726a1;
+    width: 50%;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    height: max-content;
+}
+
+@media screen and (max-width: 1000px){
+    .fondoCarrusel{
+        transform: translate(40%,0);
+    }
+    .fondoCarrusel p{
+        font-size: 14px;  
+        width: 60%;      
+    }
+}
 /*BODY CONTACTANOS*/
 
 #contact{
