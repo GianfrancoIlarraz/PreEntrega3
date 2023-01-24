@@ -12,41 +12,13 @@
 /*HEADER*/
 
 
-header div {
-    height: 194px;
+.fondoNegro{
+    background-image: linear-gradient(to bottom,#ADD84E ,#0D2726) !important;
 }
 
-header div img {
-    width: 100%;
+header{
+    margin-bottom: 30px;
 }
-
-.barraNav{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #191a19;
-    font-weight: 700;
-    margin-bottom: 3%;
-}
-
-nav ul li a {
-    text-decoration: none;
-    font-size: 1.5vw;
-    
-}
-
-nav ul li a:hover{
-    background-color: #143a39;
-    border-radius: 20%;
-    text-decoration: underline;
-}
-
-nav ul li {
-    margin: 2px;
-    padding: 4px;
-    border-radius: 40%;
-}
-
 
 .fondo1{
     background-image: url(../assets/backgrodund2.jpg);
@@ -78,16 +50,21 @@ nav ul li {
 
 .portadaIndex{
     height: 100%;
+    border: 10px solid black;
 }
 
 .asideIndex{
-    text-align: center;
-    padding-right: 10px;
+    text-align:center;
+    border: solid #eeeede 5px;
+    border-style: double;
+    height: max-content;
+    background-color: #0d2726ad;
 }
 
 @media screen and (min-width: 1200px){
     .asideIndex{
-        padding-left: 20px;
+        margin-left: 20px;
+        margin-right: 0;
     }
 }
 
@@ -108,6 +85,7 @@ nav ul li {
     text-align: center;
     font-size: 50px;
     margin: 10px;
+    background-color: #0d272698;
 }
 
 .somos{
@@ -318,21 +296,14 @@ width: 30%;
 /*FOOTER*/
 
 footer{
-    margin-top: 3%;
     background-color: #191A19;
-    display: flex;
-    justify-content: space-between;
 }
 
+/*
 footer div{
     display: flex;
     justify-content: flex-end;
     width: 33%;
-}
-
-footer div a{
-    margin: 25px;
-    color: white;
 }
 
 footer p{
@@ -342,5 +313,18 @@ footer p{
     align-items: center;
     font-size: 1.5vw;
     color: white;
+}*/
+
+
+
+footer div a{
+    margin: 15px;
+    color: white;
+}
+
+footer h2{
+    padding-top: 8px;
+    font-size: 18px;
+    text-align: center;
 }
 
