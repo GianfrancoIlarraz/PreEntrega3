@@ -223,7 +223,51 @@ width: 30%;
 
 /*BODY SPONSORS*/
 
-#titSponsor{
+#sponsors div{
+    border-top: solid black 20px;
+}
+
+#sponsors i{
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+
+#sponsors h2{
+    padding-bottom: 1%;
+}
+
+#sponsors p{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #0d2726b2;
+}
+
+
+@media screen and (min-width: 1200px) {
+    #sponsors{
+        display: flex;
+    }
+
+    #sponsors div{
+        border-top: none;
+    }
+
+    #sponsors i{
+        padding-top: 5%;
+        padding-bottom: 1%;
+    }
+
+    #sponsors h2{
+        padding-bottom: 1%;
+    }
+
+    #sponsors p{
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color: #0d2726b2;
+    }
+}
+/* #titSponsor{
     margin-top: 5%;
     text-align: center;
     font-size: 40px;
@@ -259,15 +303,6 @@ width: 30%;
     padding-bottom: 1%;
 }
 
-.sponsorCenter p{
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 33%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    background-color: #0d2726b2;
-}
 
 /*BODY SOBRE NOSOTROS*/
 
