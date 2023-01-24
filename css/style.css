@@ -90,43 +90,81 @@ header{
 
 /*MAIN JUGADORES*/
 
-#listaPlayers{
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
+
+#playersTitle{
+    text-align: center;
+    background-color: #0D2726;
+    margin-bottom: 20px;
 }
 
-#listaPlayers img {
-    width: 15%;
+#players div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: solid black 10px ;
+    border-bottom: solid black 10px;
+}
+
+#players img{
+    width: 40%;
+    height: 100%;
     background-image: url(../assets/backgroundsmall.jpg);
     background-color: #0D2726;
     border: solid #ADD84E 5px;
 }
-
-#nombresPlayers{
-    display: flex;
-    justify-content: space-between;
-}
-
-#nombresPlayers h2{
-    width: 18%;
-    display: flex;
-    justify-content: center;
+#players h2{
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
     text-decoration:underline;
 }
-
-#descripcionPlayers{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    
-}
-
-#descripcionPlayers p{
+#players p{
+    width: 70%;
+    text-align: center;
     background-color: #0D2726;
     padding: 1%;
-    width: 18%;
     border: solid #ADD84E 3px;
+}
+
+
+@media screen and (min-width: 1000px) {
+    
+    #players{
+        display: flex;
+    }
+
+    #players div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+        border-top: none;
+        border-bottom: none;
+    }
+    
+    #players img{
+        width: 80%;
+        height: 100%;
+        background-image: url(../assets/backgroundsmall.jpg);
+        background-color: #0D2726;
+        border: solid #ADD84E 5px;
+    }
+    #players h2{
+        margin-top: 10px;
+        width: 100%;
+        text-align: center;
+        text-decoration:underline;
+        background-color: black;
+    }
+    #players p{
+        width: 95%;
+        text-align: center;
+        background-color: #0D2726;
+        padding: 1%;
+        border: solid #ADD84E 3px;
+    }
 }
 
 /*BODY CONTACTANOS*/
