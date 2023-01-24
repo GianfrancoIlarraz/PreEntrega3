@@ -13,7 +13,7 @@
 
 
 .fondoNegro{
-    background-image: linear-gradient(to bottom,#ADD84E ,#0D2726) !important;
+    background-image: linear-gradient(to bottom, #0D2726,#8caf3f ,#0D2726) !important;
 }
 
 header{
@@ -31,29 +31,27 @@ header{
 
 /*MAIN INDEX*/
 
-.presentacion{
-    
-    display: flex;
-    justify-content: space-between;
-}
-
-.presentacion div {
-    width: 20%;
-}
-
-.presentacion img{
-    justify-self: center;
-    width: 50%;
-    border: 10px #eeeede solid;
-    border-style:double;
+@keyframes appear{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 
 .portadaIndex{
+    animation-duration: 2s;
+    animation-name: appear;
+    animation-iteration-count: 1;
     height: 100%;
     border: 10px solid black;
 }
 
 .asideIndex{
+    animation-duration: 3s;
+    animation-name: appear;
+    animation-iteration-count: 1;
     text-align:center;
     border: solid #eeeede 5px;
     border-style: double;
@@ -68,22 +66,18 @@ header{
     }
 }
 
-.presentacion aside{
-    justify-self: center;
-    border: solid #eeeede 3px;
-    border-style:double;
-    padding: 12px;
-    margin-right: 55px;
-    width: 20%;
-    text-align: justify;
-    background-image: url(../assets/backgroundsmall.jpg);
-    background-position: 40%;
-}
 
+.titulo1{
+    text-align: center;
+    
+    font-weight: 700;
+    color: #3ea84f;
+    transform: skew(-10deg) translateY(20px);
+}
 
 .titulo2{
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     margin: 10px;
     background-color: #0d272698;
 }
@@ -327,4 +321,5 @@ footer h2{
     font-size: 18px;
     text-align: center;
 }
+
 
