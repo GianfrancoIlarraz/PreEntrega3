@@ -233,6 +233,8 @@ width: 30%;
 
 /*BODY SOBRE NOSOTROS*/
 
+
+
 .nosotrosCenter{
     display: flex;
     flex-direction: column;
@@ -277,8 +279,7 @@ width: 30%;
 }
 
 .nosotrosStaff h2{
-    margin: 5px;
-    font-size: 30px;
+    margin: 5px; 
 }
 
 .nosotrosStaff p{
@@ -287,29 +288,43 @@ width: 30%;
     background-color: #0d2726a1;
 }
 
+.nosotrosStreamers{
+    text-align: center;
+}
+
+.nosotrosStreamers p{
+    background-color: #0d2726a1;
+}
+
+.nosotrosStreamers img{
+    border: double 4px white;
+    background-image: url(../assets/backgroundsmall.jpg);
+}
+.nosotrosStreamers h2{
+    background-color: #0D2726;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1200px){
+    .nosotrosStaff p{
+        width: 55%;
+    }
+    .nosotrosStaff img{
+        width: 34%;
+    }
+
+    .nosotrosCenter p{
+        width: 80%;
+        font-size: 16px;
+    }
+}
+
 /*FOOTER*/
 
 footer{
     background-color: #191A19;
 }
-
-/*
-footer div{
-    display: flex;
-    justify-content: flex-end;
-    width: 33%;
-}
-
-footer p{
-    width: 34%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5vw;
-    color: white;
-}*/
-
-
 
 footer div a{
     margin: 15px;
