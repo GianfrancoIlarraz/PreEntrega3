@@ -1,6 +1,4 @@
-
-
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: sans-ser;
@@ -12,35 +10,36 @@
 /*HEADER*/
 
 
-.fondoNegro{
-    background-image: linear-gradient(to bottom, #0D2726,#8caf3f ,#0D2726);
+.fondoNegro {
+    background-image: linear-gradient(to bottom, #0D2726, #8caf3f, #0D2726);
 }
 
-header{
+header {
     margin-bottom: 30px;
 }
 
-.fondo1{
+.fondo1 {
     background-image: url(../assets/backgrodund2.jpg);
 }
 
-.fondo2{
+.fondo2 {
     background-image: url(../assets/Background.png);
 }
 
 
 /*MAIN INDEX*/
 
-@keyframes appear{
-    0%{
+@keyframes appear {
+    0% {
         opacity: 0;
     }
-    100%{
+
+    100% {
         opacity: 1;
     }
 }
 
-.portadaIndex{
+.portadaIndex {
     animation-duration: 2s;
     animation-name: appear;
     animation-iteration-count: 1;
@@ -48,41 +47,41 @@ header{
     border: 10px solid black;
 }
 
-.asideIndex{
+.asideIndex {
     animation-duration: 3s;
     animation-name: appear;
     animation-iteration-count: 1;
-    text-align:center;
+    text-align: center;
     border: solid #eeeede 5px;
     border-style: double;
     height: max-content;
     background-color: #0d2726ad;
 }
 
-@media screen and (min-width: 1200px){
-    .asideIndex{
+@media screen and (min-width: 1200px) {
+    .asideIndex {
         margin-left: 20px;
         margin-right: 0;
     }
 }
 
 
-.titulo1{
+.titulo1 {
     text-align: center;
-    
+
     font-weight: 700;
     color: #3ea84f;
     transform: translateY(20px);
 }
 
-.titulo2{
+.titulo2 {
     text-align: center;
     font-size: 40px;
     margin: 10px;
     background-color: #0d272698;
 }
 
-.somos{
+.somos {
     text-align: center;
     font-size: 20px;
     background-color: #1e512862;
@@ -91,22 +90,22 @@ header{
 /*MAIN JUGADORES*/
 
 
-#playersTitle{
+#playersTitle {
     text-align: center;
     background-color: #0D2726;
     margin-bottom: 20px;
 }
 
-#players div{
+#players div {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-top: solid black 10px ;
+    border-top: solid black 10px;
     border-bottom: solid black 10px;
 }
 
-#players img{
+#players img {
     width: 40%;
     height: 100%;
     background-image: url(../assets/backgroundsmall.jpg);
@@ -114,18 +113,19 @@ header{
     border: solid #ADD84E 5px;
 }
 
-#players img:hover{
+#players img:hover {
     transform: scale(1.1);
-    
+
 }
 
-#players h2{
+#players h2 {
     margin-top: 10px;
     width: 100%;
     text-align: center;
-    text-decoration:underline;
+    text-decoration: underline;
 }
-#players p{
+
+#players p {
     width: 70%;
     text-align: center;
     background-color: #0D2726;
@@ -135,12 +135,12 @@ header{
 
 
 @media screen and (min-width: 1000px) {
-    
-    #players{
+
+    #players {
         display: flex;
     }
 
-    #players div{
+    #players div {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -149,22 +149,24 @@ header{
         border-top: none;
         border-bottom: none;
     }
-    
-    #players img{
+
+    #players img {
         width: 80%;
         height: 100%;
         background-image: url(../assets/backgroundsmall.jpg);
         background-color: #0D2726;
         border: solid #ADD84E 5px;
     }
-    #players h2{
+
+    #players h2 {
         margin-top: 10px;
         width: 100%;
         text-align: center;
-        text-decoration:underline;
+        text-decoration: underline;
         background-color: black;
     }
-    #players p{
+
+    #players p {
         width: 95%;
         text-align: center;
         background-color: #0D2726;
@@ -175,13 +177,13 @@ header{
 
 /*BODY CONTACTANOS*/
 
-.imgContact{
+.imgContact {
     margin-bottom: 100px;
     margin-top: 20px;
     border: double 5px white;
 }
 
-.botonCont{
+.botonCont {
     margin: 2px;
     padding: 1px;
     background-color: #ffffff;
@@ -189,8 +191,8 @@ header{
 }
 
 
-@media screen and (min-width: 1000px){
-    .padding{
+@media screen and (min-width: 1000px) {
+    .padding {
         padding-left: 20px;
     }
 }
@@ -198,20 +200,20 @@ header{
 
 /*BODY SPONSORS*/
 
-#sponsors div{
+#sponsors div {
     border-top: solid black 20px;
 }
 
-#sponsors i{
+#sponsors i {
     padding-top: 5%;
     padding-bottom: 1%;
 }
 
-#sponsors h2{
+#sponsors h2 {
     padding-bottom: 1%;
 }
 
-#sponsors p{
+#sponsors p {
     margin-left: 5%;
     margin-right: 5%;
     background-color: #0d2726b2;
@@ -219,24 +221,24 @@ header{
 
 
 @media screen and (min-width: 1200px) {
-    #sponsors{
+    #sponsors {
         display: flex;
     }
 
-    #sponsors div{
+    #sponsors div {
         border-top: none;
     }
 
-    #sponsors i{
+    #sponsors i {
         padding-top: 5%;
         padding-bottom: 1%;
     }
 
-    #sponsors h2{
+    #sponsors h2 {
         padding-bottom: 1%;
     }
 
-    #sponsors p{
+    #sponsors p {
         margin-left: 5%;
         margin-right: 5%;
         background-color: #0d2726b2;
@@ -248,20 +250,20 @@ header{
 
 
 
-.nosotrosCenter{
+.nosotrosCenter {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.nosotrosCenter h2{
+.nosotrosCenter h2 {
     font-size: 40px;
     background-color: #0D2726;
     width: 100%;
     text-align: center;
 }
 
-.nosotrosCenter p{
+.nosotrosCenter p {
     margin: 20px;
     width: 70%;
     text-align: center;
@@ -269,7 +271,7 @@ header{
     font-size: 18px;
 }
 
-#nosotrosTitle{
+#nosotrosTitle {
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -279,55 +281,57 @@ header{
     background-color: #0D2726;
 }
 
-.nosotrosStaff{
+.nosotrosStaff {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.nosotrosStaff img{
+.nosotrosStaff img {
     border: double 4px white;
     width: 20%;
     background-image: url(../assets/backgroundsmall.jpg);
 }
 
-.nosotrosStaff h2{
-    margin: 5px; 
+.nosotrosStaff h2 {
+    margin: 5px;
 }
 
-.nosotrosStaff p{
+.nosotrosStaff p {
     width: 30%;
     text-align: center;
     background-color: #0d2726a1;
 }
 
-.nosotrosStreamers{
+.nosotrosStreamers {
     text-align: center;
 }
 
-.nosotrosStreamers p{
+.nosotrosStreamers p {
     background-color: #0d2726a1;
 }
 
-.nosotrosStreamers img{
+.nosotrosStreamers img {
     border: double 4px white;
     background-image: url(../assets/backgroundsmall.jpg);
 }
-.nosotrosStreamers h2{
+
+.nosotrosStreamers h2 {
     background-color: #0D2726;
     padding: 10px;
     margin-bottom: 20px;
 }
 
-@media screen and (max-width: 1200px){
-    .nosotrosStaff p{
+@media screen and (max-width: 1200px) {
+    .nosotrosStaff p {
         width: 55%;
     }
-    .nosotrosStaff img{
+
+    .nosotrosStaff img {
         width: 34%;
     }
 
-    .nosotrosCenter p{
+    .nosotrosCenter p {
         width: 80%;
         font-size: 16px;
     }
@@ -335,19 +339,17 @@ header{
 
 /*FOOTER*/
 
-footer{
+footer {
     background-color: #191A19;
 }
 
-footer div a{
+footer div a {
     margin: 15px;
     color: white;
 }
 
-footer h2{
+footer h2 {
     padding-top: 8px;
     font-size: 18px;
     text-align: center;
 }
-
-
