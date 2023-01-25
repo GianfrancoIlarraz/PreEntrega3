@@ -13,7 +13,7 @@
 
 
 .fondoNegro{
-    background-image: linear-gradient(to bottom, #0D2726,#8caf3f ,#0D2726) !important;
+    background-image: linear-gradient(to bottom, #0D2726,#8caf3f ,#0D2726);
 }
 
 header{
@@ -113,6 +113,12 @@ header{
     background-color: #0D2726;
     border: solid #ADD84E 5px;
 }
+
+#players img:hover{
+    transform: scale(1.1);
+    
+}
+
 #players h2{
     margin-top: 10px;
     width: 100%;
