@@ -2,10 +2,7 @@
 
 #players {
     div {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        @include displayFlex(column, center, center);
         border-top: solid map-get($map: $color, $key: oscuro) 10px;
         border-bottom: solid map-get($map: $color, $key: oscuro) 10px;
     }
@@ -46,10 +43,7 @@
         display: flex;
 
         div {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            @include displayFlex(column, center, center);
             width: 20%;
             border-top: none;
             border-bottom: none;
@@ -132,12 +126,9 @@
 //ABOUT US
 
 .nosotrosStaff {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+    @include displayFlex(column, center, center);
     img {
-        border: double 4px map-get($map: $color, $key: claro);
+        border: $bordeBlanco;
         width: 20%;
         background-image: url(../assets/backgroundsmall.jpg);
     }
@@ -161,7 +152,7 @@
     }
 
     img {
-        border: double 4px map-get($map: $color, $key: claro);
+        border: $bordeBlanco;
         background-image: url(../assets/backgroundsmall.jpg);
     }
 

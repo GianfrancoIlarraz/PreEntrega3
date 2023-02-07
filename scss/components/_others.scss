@@ -3,7 +3,7 @@
     animation-name: appear;
     animation-iteration-count: 1;
     height: 100%;
-    border: 10px solid map-get($map: $color, $key: oscuro);
+    border: $bordeBlanco;
 }
 
 .asideIndex {
@@ -11,7 +11,7 @@
     animation-name: appear;
     animation-iteration-count: 1;
     text-align: center;
-    border: solid #eeeede 5px;
+    border: $bordeBlanco;
     border-style: double;
     height: max-content;
     background-color: map-get($map: $color, $key: fondo);
