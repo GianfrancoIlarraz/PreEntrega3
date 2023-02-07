@@ -3,7 +3,7 @@
     animation-name: appear;
     animation-iteration-count: 1;
     height: 100%;
-    border: 10px solid black;
+    border: 10px solid map-get($map: $color, $key: oscuro);
 }
 
 .asideIndex {
@@ -14,11 +14,11 @@
     border: solid #eeeede 5px;
     border-style: double;
     height: max-content;
-    background-color: #0d2726ad;
+    background-color: map-get($map: $color, $key: fondo);
 }
 
 .imgContact {
     margin-bottom: 100px;
     margin-top: 20px;
-    border: double 5px white;
+    border: double 5px map-get($map: $color, $key: claro);
 }

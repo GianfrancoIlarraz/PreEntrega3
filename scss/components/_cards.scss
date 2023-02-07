@@ -6,16 +6,16 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        border-top: solid black 10px;
-        border-bottom: solid black 10px;
+        border-top: solid map-get($map: $color, $key: oscuro) 10px;
+        border-bottom: solid map-get($map: $color, $key: oscuro) 10px;
     }
 
     img {
         width: 40%;
         height: 100%;
         background-image: url(../assets/backgroundsmall.jpg);
-        background-color: #0D2726;
-        border: solid #ADD84E 5px;
+        background-color: map-get($map: $color, $key: secundario);
+        border: solid map-get($map: $color, $key: principal) 5px;
     }
 
     h2 {
@@ -28,9 +28,9 @@
     p {
         width: 70%;
         text-align: center;
-        background-color: #0D2726;
+        background-color: map-get($map: $color, $key: secundario);
         padding: 1%;
-        border: solid #ADD84E 3px;
+        border: solid map-get($map: $color, $key: principal) 3px;
     }
 
     img {
@@ -59,8 +59,8 @@
             width: 80%;
             height: 100%;
             background-image: url(../assets/backgroundsmall.jpg);
-            background-color: #0D2726;
-            border: solid #ADD84E 5px;
+            background-color: map-get($map: $color, $key: secundario);
+            border: solid map-get($map: $color, $key: principal) 5px;
         }
 
         h2 {
@@ -68,15 +68,15 @@
             width: 100%;
             text-align: center;
             text-decoration: underline;
-            background-color: black;
+            background-color: map-get($map: $color, $key: oscuro);
         }
 
         p {
             width: 95%;
             text-align: center;
-            background-color: #0D2726;
+            background-color: map-get($map: $color, $key: secundario);
             padding: 1%;
-            border: solid #ADD84E 3px;
+            border: solid map-get($map: $color, $key: principal) 3px;
         }
     }
 }
@@ -85,7 +85,7 @@
 
 #sponsors {
     div {
-        border-top: solid black 20px;
+        border-top: solid map-get($map: $color, $key: oscuro) 20px;
     }
 
     i {
@@ -100,7 +100,7 @@
     p {
         margin-left: 5%;
         margin-right: 5%;
-        background-color: #0d2726b2;
+        background-color: map-get($map: $color, $key: fondo);
     }
 }
 
@@ -124,7 +124,7 @@
         p {
             margin-left: 5%;
             margin-right: 5%;
-            background-color: #0d2726b2;
+            background-color: map-get($map: $color, $key: fondo);
         }
     }
 }
@@ -137,7 +137,7 @@
     align-items: center;
 
     img {
-        border: double 4px white;
+        border: double 4px map-get($map: $color, $key: claro);
         width: 20%;
         background-image: url(../assets/backgroundsmall.jpg);
     }
@@ -149,7 +149,7 @@
     p {
         width: 30%;
         text-align: center;
-        background-color: #0d2726a1;
+        background-color: map-get($map: $color, $key: fondo);
     }
 }
 
@@ -157,16 +157,16 @@
     text-align: center;
 
     p {
-        background-color: #0d2726a1;
+        background-color: map-get($map: $color, $key: fondo);
     }
 
     img {
-        border: double 4px white;
+        border: double 4px map-get($map: $color, $key: claro);
         background-image: url(../assets/backgroundsmall.jpg);
     }
 
     h2 {
-        background-color: #0D2726;
+        background-color: map-get($map: $color, $key: secundario);
         padding: 10px;
         margin-bottom: 20px;
     }

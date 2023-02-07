@@ -1,6 +1,6 @@
 .botonCont {
     margin: 2px;
     padding: 1px;
-    background-color: #ffffff;
-    color: black;
+    background-color: map-get($map: $color, $key: claro);;
+    color: map-get($map: $color, $key: oscuro);
 }

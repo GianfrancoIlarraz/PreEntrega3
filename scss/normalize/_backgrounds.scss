@@ -1,5 +1,5 @@
 .fondoNegro {
-    background-image: linear-gradient(to bottom, #0D2726, #8caf3f, #0D2726);
+    background-image: linear-gradient(to bottom, map-get($map: $color, $key: secundario), map-get($map: $color, $key: principal), map-get($map: $color, $key: secundario));
 }
 
 .fondo1 {

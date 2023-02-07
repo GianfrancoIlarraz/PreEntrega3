@@ -4,7 +4,7 @@ footer {
     div {
         a {
             margin: 15px;
-            color: white;
+            color: map-get($map: $color, $key: claro);
         }
     }
 
