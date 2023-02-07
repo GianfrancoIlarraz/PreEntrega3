@@ -1,0 +1,191 @@
+// PLAYERS
+
+#players {
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-top: solid black 10px;
+        border-bottom: solid black 10px;
+    }
+
+    img {
+        width: 40%;
+        height: 100%;
+        background-image: url(../assets/backgroundsmall.jpg);
+        background-color: #0D2726;
+        border: solid #ADD84E 5px;
+    }
+
+    h2 {
+        margin-top: 10px;
+        width: 100%;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    p {
+        width: 70%;
+        text-align: center;
+        background-color: #0D2726;
+        padding: 1%;
+        border: solid #ADD84E 3px;
+    }
+
+    img {
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+    #players {
+        display: flex;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 20%;
+            border-top: none;
+            border-bottom: none;
+        }
+
+        img {
+            width: 80%;
+            height: 100%;
+            background-image: url(../assets/backgroundsmall.jpg);
+            background-color: #0D2726;
+            border: solid #ADD84E 5px;
+        }
+
+        h2 {
+            margin-top: 10px;
+            width: 100%;
+            text-align: center;
+            text-decoration: underline;
+            background-color: black;
+        }
+
+        p {
+            width: 95%;
+            text-align: center;
+            background-color: #0D2726;
+            padding: 1%;
+            border: solid #ADD84E 3px;
+        }
+    }
+}
+
+//SPONSORS
+
+#sponsors {
+    div {
+        border-top: solid black 20px;
+    }
+
+    i {
+        padding-top: 5%;
+        padding-bottom: 1%;
+    }
+
+    h2 {
+        padding-bottom: 1%;
+    }
+
+    p {
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color: #0d2726b2;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #sponsors {
+        display: flex;
+
+        div {
+            border-top: none;
+        }
+
+        i {
+            padding-top: 5%;
+            padding-bottom: 1%;
+        }
+
+        h2 {
+            padding-bottom: 1%;
+        }
+
+        p {
+            margin-left: 5%;
+            margin-right: 5%;
+            background-color: #0d2726b2;
+        }
+    }
+}
+
+//ABOUT US
+
+.nosotrosStaff {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        border: double 4px white;
+        width: 20%;
+        background-image: url(../assets/backgroundsmall.jpg);
+    }
+
+    h2 {
+        margin: 5px;
+    }
+
+    p {
+        width: 30%;
+        text-align: center;
+        background-color: #0d2726a1;
+    }
+}
+
+.nosotrosStreamers {
+    text-align: center;
+
+    p {
+        background-color: #0d2726a1;
+    }
+
+    img {
+        border: double 4px white;
+        background-image: url(../assets/backgroundsmall.jpg);
+    }
+
+    h2 {
+        background-color: #0D2726;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .nosotrosStaff {
+        p {
+            width: 55%;
+        }
+
+        img {
+            width: 34%;
+        }
+
+        p {
+            width: 80%;
+            font-size: 16px;
+        }
+    }
+}

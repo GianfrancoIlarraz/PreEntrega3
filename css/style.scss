@@ -1,0 +1,71 @@
+@import "../scss/variables/colors";
+
+@import "../scss/normalize/reset";
+@import "../scss/normalize/backgrounds";
+@import "../scss/components/header";
+@import "../scss/components/footer";
+@import "../scss/components/cards";
+@import "../scss/components/text";
+
+
+
+/*MAIN INDEX*/
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.portadaIndex {
+    animation-duration: 2s;
+    animation-name: appear;
+    animation-iteration-count: 1;
+    height: 100%;
+    border: 10px solid black;
+}
+
+.asideIndex {
+    animation-duration: 3s;
+    animation-name: appear;
+    animation-iteration-count: 1;
+    text-align: center;
+    border: solid #eeeede 5px;
+    border-style: double;
+    height: max-content;
+    background-color: #0d2726ad;
+}
+
+@media screen and (min-width: 1200px) {
+    .asideIndex {
+        margin-left: 20px;
+        margin-right: 0;
+    }
+}
+
+/*BODY CONTACTANOS*/
+
+.imgContact {
+    margin-bottom: 100px;
+    margin-top: 20px;
+    border: double 5px white;
+}
+
+.botonCont {
+    margin: 2px;
+    padding: 1px;
+    background-color: #ffffff;
+    color: black;
+}
+
+
+@media screen and (min-width: 1000px) {
+    .padding {
+        padding-left: 20px;
+    }
+}
+
