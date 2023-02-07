@@ -1,4 +1,4 @@
-// PLAYERS
+// Style de cards de jugadores.html, mediaqueries para pantallas de menos de 1200px de ancho
 
 #players {
     div {
@@ -75,7 +75,7 @@
     }
 }
 
-//SPONSORS
+//Style de las carde de sponsors.html, mediaqueries para pantallas con menos de 1200px de ancho
 
 #sponsors {
     div {
@@ -123,10 +123,11 @@
     }
 }
 
-//ABOUT US
+//Style de sobreNosotros.html, con mediaqueries haciendo responsive para pantallas de menos de 1200px
 
 .nosotrosStaff {
     @include displayFlex(column, center, center);
+
     img {
         border: $bordeBlanco;
         width: 20%;

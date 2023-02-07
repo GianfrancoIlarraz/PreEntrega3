@@ -1,3 +1,5 @@
+//reset default
+
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +8,8 @@
     color: map-get($map: $color, $key: claro);
     box-sizing: border-box;
 }
+
+//cambios para versión mobile
 
 @media screen and (min-width: 1000px) {
     .padding {
