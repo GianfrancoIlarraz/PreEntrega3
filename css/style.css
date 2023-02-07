@@ -1,3 +1,19 @@
+@-webkit-keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +23,17 @@
   box-sizing: border-box;
 }
 
+@media screen and (min-width: 1000px) {
+  .padding {
+    padding-left: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .asideIndex {
+    margin-left: 20px;
+    margin-right: 0;
+  }
+}
 .fondoNegro {
   background-image: linear-gradient(to bottom, #0D2726, #8caf3f, #0D2726);
 }
@@ -243,23 +270,13 @@ footer h2 {
   background-color: #0D2726;
 }
 
-/*MAIN INDEX*/
-@-webkit-keyframes appear {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+.botonCont {
+  margin: 2px;
+  padding: 1px;
+  background-color: #ffffff;
+  color: black;
 }
-@keyframes appear {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
+
 .portadaIndex {
   -webkit-animation-duration: 2s;
           animation-duration: 2s;
@@ -287,28 +304,8 @@ footer h2 {
   background-color: rgba(13, 39, 38, 0.6784313725);
 }
 
-@media screen and (min-width: 1200px) {
-  .asideIndex {
-    margin-left: 20px;
-    margin-right: 0;
-  }
-}
-/*BODY CONTACTANOS*/
 .imgContact {
   margin-bottom: 100px;
   margin-top: 20px;
   border: double 5px white;
-}
-
-.botonCont {
-  margin: 2px;
-  padding: 1px;
-  background-color: #ffffff;
-  color: black;
-}
-
-@media screen and (min-width: 1000px) {
-  .padding {
-    padding-left: 20px;
-  }
 }/*# sourceMappingURL=style.css.map */

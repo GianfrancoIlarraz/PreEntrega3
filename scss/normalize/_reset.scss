@@ -6,3 +6,16 @@
     color: #eeeede;
     box-sizing: border-box;
 }
+
+@media screen and (min-width: 1000px) {
+    .padding {
+        padding-left: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .asideIndex {
+        margin-left: 20px;
+        margin-right: 0;
+    }
+}

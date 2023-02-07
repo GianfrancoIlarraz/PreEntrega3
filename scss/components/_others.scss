@@ -1,0 +1,24 @@
+.portadaIndex {
+    animation-duration: 2s;
+    animation-name: appear;
+    animation-iteration-count: 1;
+    height: 100%;
+    border: 10px solid black;
+}
+
+.asideIndex {
+    animation-duration: 3s;
+    animation-name: appear;
+    animation-iteration-count: 1;
+    text-align: center;
+    border: solid #eeeede 5px;
+    border-style: double;
+    height: max-content;
+    background-color: #0d2726ad;
+}
+
+.imgContact {
+    margin-bottom: 100px;
+    margin-top: 20px;
+    border: double 5px white;
+}
