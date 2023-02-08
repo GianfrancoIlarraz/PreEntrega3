@@ -124,6 +124,7 @@
 }
 
 //Style de cards de sobreNosotros.html, con mediaqueries haciendo responsive para pantallas de menos de 1200px
+//Está pendiente aplicar BEM
 
 .nosotrosStaff {
     @include displayFlex(column, center, center);

@@ -42,6 +42,12 @@
         background-color: map-get($map: $color, $key: fondo);
         font-size: 18px;
     }
+
+    &__icons{
+        height: 14vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
 }
 
 #nosotrosTitle {

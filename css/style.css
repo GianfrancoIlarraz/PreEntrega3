@@ -255,6 +255,11 @@ footer h2 {
   background-color: rgba(13, 39, 38, 0.631372549);
   font-size: 18px;
 }
+.nosotrosCenter__icons {
+  height: 14vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
 
 #nosotrosTitle {
   width: 100%;
