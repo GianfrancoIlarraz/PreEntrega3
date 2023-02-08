@@ -27,21 +27,21 @@
 
 .nosotrosCenter {
     @include displayFlex(column, center, center);
-}
 
-.nosotrosCenter h2 {
-    font-size: 40px;
-    background-color: map-get($map: $color, $key: secundario);
-    width: 100%;
-    text-align: center;
-}
+    h2 {
+        font-size: 40px;
+        background-color: map-get($map: $color, $key: secundario);
+        width: 100%;
+        text-align: center;
+    }
 
-.nosotrosCenter p {
-    margin: 20px;
-    width: 70%;
-    text-align: center;
-    background-color: map-get($map: $color, $key: fondo);
-    font-size: 18px;
+    p {
+        margin: 20px;
+        width: 70%;
+        text-align: center;
+        background-color: map-get($map: $color, $key: fondo);
+        font-size: 18px;
+    }
 }
 
 #nosotrosTitle {

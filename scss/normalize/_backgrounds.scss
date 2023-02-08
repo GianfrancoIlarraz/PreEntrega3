@@ -2,10 +2,12 @@
     background-image: linear-gradient(to bottom, map-get($map: $color, $key: secundario), map-get($map: $color, $key: principal), map-get($map: $color, $key: secundario));
 }
 
+//Fondo de index, jugadores y contactanos
 .fondo1 {
     background-image: url(../assets/Background2v2-min.png);
 }
 
+//Fondo de sobreNosotros y sponsors
 .fondo2 {
     background-image: url(../assets/Backgroundv2-min.png);
 }
