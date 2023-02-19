@@ -1,7 +1,25 @@
 // Boton con fondo blanco y letras negras
-.botonCont {
+.boton {
     margin: 2px;
     padding: 1px;
     background-color: map-get($map: $color, $key: claro);
     color: map-get($map: $color, $key: oscuro);
+}
+
+.boton--enviar {
+    @extend .boton;
+
+    &:hover {
+        background-color: rgba(172, 255, 47, 0.432);
+    }
+}
+
+.boton--reiniciar {
+    @extend .boton;
+
+    &:hover {
+        background-color: rgba(233, 54, 54, 0.473)
+    }
+
+
 }
