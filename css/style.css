@@ -31,11 +31,11 @@
 }
 
 .fondo1 {
-  background-image: url(../assets/Background2v2-min.png);
+  background-image: url(../assets/background2v2-min.png);
 }
 
 .fondo2 {
-  background-image: url(../assets/Backgroundv2-min.png);
+  background-image: url(../assets/backgroundv2-min.png);
 }
 
 header {
@@ -106,7 +106,7 @@ footer h2 {
   }
   #players img {
     width: 80%;
-    height: 100%;
+    height: 35rem;
     background-image: url(../assets/backgroundsmall.jpg);
     background-color: #0D2726;
     border: solid #ADD84E 5px;
@@ -123,6 +123,7 @@ footer h2 {
     text-align: center;
     background-color: #0D2726;
     padding: 1%;
+    height: 11rem;
     border: solid #ADD84E 3px;
   }
 }
@@ -162,50 +163,52 @@ footer h2 {
     background-color: rgba(13, 39, 38, 0.631372549);
   }
 }
-.nosotrosStaff {
+.nosotros__staff {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.nosotrosStaff img {
+.nosotros__staff img {
   border: double white 4px;
   width: 20%;
   background-image: url(../assets/backgroundsmall.jpg);
 }
-.nosotrosStaff h2 {
+.nosotros__staff h2 {
   margin: 5px;
 }
-.nosotrosStaff p {
+.nosotros__staff p {
   width: 30%;
   text-align: center;
   background-color: rgba(13, 39, 38, 0.631372549);
+  font-size: 18px;
 }
 
-.nosotrosStreamers {
+.nosotros__streamers {
   text-align: center;
 }
-.nosotrosStreamers p {
+.nosotros__streamers p {
   background-color: rgba(13, 39, 38, 0.631372549);
+  font-size: 18px;
 }
-.nosotrosStreamers img {
+.nosotros__streamers img {
   border: double white 4px;
   background-image: url(../assets/backgroundsmall.jpg);
 }
-.nosotrosStreamers h2 {
+.nosotros__streamers h2 {
   background-color: #0D2726;
   padding: 10px;
   margin-bottom: 20px;
 }
 
 @media screen and (max-width: 1200px) {
-  .nosotrosStaff p {
+  .nosotros__staff p {
     width: 55%;
   }
-  .nosotrosStaff img {
+  .nosotros__staff img {
     width: 34%;
   }
-  .nosotrosStaff p {
+  .nosotros__staff p {
     width: 80%;
     font-size: 16px;
   }
@@ -216,32 +219,33 @@ footer h2 {
   margin-bottom: 20px;
 }
 
-.nosotrosCenter {
+.nosotros__center {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.nosotrosCenter h2 {
+.nosotros__center h2 {
   font-size: 40px;
   background-color: #0D2726;
   width: 100%;
   text-align: center;
 }
-.nosotrosCenter p {
+.nosotros__center p {
   margin: 20px;
   width: 70%;
   text-align: center;
   background-color: rgba(13, 39, 38, 0.631372549);
   font-size: 18px;
 }
-.nosotrosCenter__icons {
-  height: 14vw;
+.nosotros__center__icons {
+  width: 45vw;
+  height: auto;
   padding-left: 5vw;
   padding-right: 5vw;
 }
 
-#nosotrosTitle {
+#nosotros__title {
   width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -341,4 +345,8 @@ footer h2 {
   margin-bottom: 100px;
   margin-top: 20px;
   border: double 5px #eeeede;
+}
+
+.sponsorsIcon {
+  width: 10rem;
 }/*# sourceMappingURL=style.css.map */

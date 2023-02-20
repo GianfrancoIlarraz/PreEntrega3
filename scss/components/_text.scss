@@ -4,7 +4,7 @@
     margin-bottom: 20px;
 }
 
-.nosotrosCenter {
+.nosotros__center {
     @include displayFlex(column, center, center);
 
     h2 {
@@ -23,13 +23,16 @@
     }
 
     &__icons{
-        height: 14vw;
+        width: 45vw;
+        height: auto;
         padding-left: 5vw;
         padding-right: 5vw;
     }
+
+    
 }
 
-#nosotrosTitle {
+#nosotros__title {
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
